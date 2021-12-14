@@ -1,4 +1,4 @@
-html{
+* {
   /*Reset*/
   margin: 0;
   padding: 0;
@@ -22,4 +22,18 @@ html{
   --dark-grayish-blue: hsl(232, 10%, 55%);
   --grayish-blue: hsl(210, 4%, 67%);
   --white: hsl(0, 0%, 100%);
+
+  /*
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif;
+  */
+}
+
+header{
+    width: 100vw;
+    height: 67.7rem;
+    
+    background-image: url(./images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
