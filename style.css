@@ -105,8 +105,8 @@ header{
   justify-content: center;
 }
 
-/*first section*/
-.transform-brand-description{
+/*Transform Brand Section*/
+.transform-brand-description, .stand-out-description{
   padding: 5.6rem 2.7rem;
 
   display: flex;
@@ -116,14 +116,14 @@ header{
 
 }
 
-.transform-brand-description h3{
+.transform-brand-description h3, .stand-out-description h3{
   font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: 3.6rem;
   text-align: center;
 }
 
-.transform-brand-description p{
+.transform-brand-description p, .stand-out-description p{
   font-family: 'Barlow', sans-serif;
   font-weight: 600;
   font-size: 1.8rem;
@@ -134,7 +134,7 @@ header{
   margin-block-start: 2.4rem;
 }
 
-.transform-brand-description a{
+.transform-brand-description a, .stand-out-description a{
   cursor: pointer;
   position: relative;
 }
@@ -166,6 +166,21 @@ a .learn-more{
   height: 31.2rem;
   
   background-image: url(./images/mobile/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*Stand out Section*/
+
+.stand-out-description .underline{
+  background-color: var(--soft-red);
+}
+
+.stand-out-img{
+  width: 37.5rem;
+  height: 31.2rem;
+  
+  background-image: url(./images/mobile/image-stand-out.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
