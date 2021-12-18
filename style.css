@@ -8,6 +8,7 @@
   vertical-align: baseline;
   list-style: none;
   box-sizing: border-box;
+  text-decoration: none;
   border: none;
   font-size: 62.5%;
   /*Primary colors*/
@@ -29,11 +30,142 @@
   */
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*header style*/
 header{
-    width: 100vw;
-    height: 67.7rem;
-    
-    background-image: url(./images/mobile/image-header.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+  display: block;
+  padding: 1.8rem 3.2rem;
+  
+  width: 375px;
+  height: 540px;
+  left: 0px;
+  top: 0px;
+  
+  background: url(./images/mobile/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-menu{
+  background: none  ;
+}
+
+.menu-options{
+  position: absolute;
+  width: 304px;
+  height: 416px;
+  left: 35px;
+  top: 45px;
+  
+  padding: 11.6rem 7.7rem 8.2rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-image: url(./images/Vector\ 1.svg);
+  
+  display: none;
+}
+
+.menu-options a{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--very-dark-grayish-blue);
+}
+
+.title{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 6.4rem;
+  font-style: normal;
+  text-align: center;
+
+  color: var(--white);
+
+  margin-block-start: 5.6rem;
+}
+.arrow-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*first section*/
+.transform-brand-description{
+  padding: 5.6rem 2.7rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.transform-brand-description h3{
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.transform-brand-description p{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+
+  color: var(--very-dark-grayish-blue);
+
+  margin-block-start: 2.4rem;
+}
+
+.transform-brand-description a{
+  cursor: pointer;
+  position: relative;
+}
+
+a .learn-more{
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+
+  color: rgb(0, 0,0);
+  margin-block-start: 3.2rem;
+}
+
+.underline{
+  width: inherit;
+  height: 1rem;
+
+  background-color: var(--yellow);
+  border-radius: 3rem;
+  
+  position: relative;
+  top: -8px;
+
+  z-index: -1;
+}
+
+.transform-brand-img{
+  width: 37.5rem;
+  height: 31.2rem;
+  
+  background-image: url(./images/mobile/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
