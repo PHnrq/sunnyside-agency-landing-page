@@ -109,6 +109,8 @@ header{
 .transform-brand-section, .stand-out-section{
   display: flex;
   flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 .transform-brand-description, .stand-out-description{
@@ -188,4 +190,148 @@ a .learn-more{
   background-image: url(./images/mobile/image-stand-out.jpg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+/*services*/
+.graphic-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  
+  width: 373px;
+  height: 597px;
+  padding: 0 1.3rem 7.2rem;
+  
+  background: url(./images/mobile/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.graphic-title{
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 3.6rem;
+
+  color: var(--dark-desaturated-cyan);
+}
+
+.graphic-description{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+
+  color: var(--dark-desaturated-cyan);
+
+  margin-block-start: 2.4rem;
+}
+
+.photo-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  
+  width: 373px;
+  height: 597px;
+  padding: 0 1.3rem 7.2rem;
+  
+  background: url(./images/mobile/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.photo-title{
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 3.6rem;
+
+  color: var(--dark-blue);
+}
+
+.photo-description{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+
+  color: var(--dark-blue);
+
+  margin-block-start: 2.4rem;
+}
+
+/*Client Section*/
+.client-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7.2rem 1.3rem;
+}
+
+.client-title{
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+
+  color: var(--grayish-blue);
+}
+
+.client-testimonials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-block-start: 4.2rem;
+}
+
+.user-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-block-start: 5.6rem;
+}
+
+.user-avatar{
+  width: 60px;
+  height: 60px;
+
+  border-radius: 100%;
+}
+
+.testimonials{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+
+  color: var(--very-dark-grayish-blue);
+
+  margin-block: 3.2rem;
+}
+
+.author-name{
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+
+  color: black;
+}
+
+.author-info{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+
+  text-align: center;
+
+  color: var(--grayish-blue);
+
+  margin-block-start: .8rem;
 }
