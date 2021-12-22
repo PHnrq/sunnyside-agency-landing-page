@@ -335,3 +335,36 @@ a .learn-more{
 
   margin-block-start: .8rem;
 }
+/*gallery*/
+.gallery-photo{
+  width: 188px;
+  height: 188px;
+}
+
+.gallery-first-row, .gallery-second-row{
+  display: flex;
+}
+
+.gallery-milkbottles{
+  background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gallery-orange{
+  background-image: url(./images/mobile/image-gallery-orange.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gallery-cone{
+  background-image: url(./images/mobile/image-gallery-cone.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gallery-sugar-cubes{
+  background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
