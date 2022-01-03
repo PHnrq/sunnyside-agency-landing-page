@@ -77,7 +77,9 @@ header{
   justify-content: space-between;
   
   background-image: url(./images/Vector\ 1.svg);
-  
+}
+
+#menu-active{
   display: none;
 }
 
@@ -86,6 +88,22 @@ header{
   font-weight: 600;
   font-size: 1.8rem;
   color: var(--very-dark-grayish-blue);
+}
+
+.menu-options .btn-contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 150px;
+  height: 60px;
+
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: black;
+
+  background: var(--yellow);
+  border-radius: 3rem;
 }
 
 .title{

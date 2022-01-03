@@ -24,13 +24,13 @@
   <header>
     <div class="navbar">
       <h1 class="logo"><img src="./images/logo.svg" alt="logo"></h1>
-      <button class="btn-menu"><img src="./images/icon-hamburger.svg" alt=""></button>
+      <button class="btn-menu" onclick="menu()"><img src="./images/icon-hamburger.svg" alt=""></button>
     </div>
-    <div class="menu-options">
+    <div class="menu-options" id="menu-active">
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Projects</a>
-      <a href="#">Contact</a>
+      <a href="#" class="btn-contact">CONTACT</a>
     </div>
     <h2 class="title">We are creatives</h2>
     <div class="arrow-icon">
@@ -159,7 +159,15 @@
     </div>
   </footer>
   
-
-
+  <script>
+    function menu() {
+      var x = document.getElementById("menu-active");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    }
+  </script>
 </body>
 </html>
