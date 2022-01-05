@@ -194,72 +194,44 @@ a .learn-more{
   background-color: var(--soft-red);
 }
 
-.graphic-section{
+.graphic-section, .photo-section{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+
+  padding: 37rem 1.3rem 7.2rem;
   
-  width: 373px;
-  height: 597px;
-  padding: 0 1.3rem 7.2rem;
-  
-  background: url(./images/mobile/image-graphic-design.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
+
 }
 
-.graphic-title{
-  font-family: 'Fraunces', serif;
-  font-weight: 600;
-  font-size: 3.6rem;
-
+.graphic-section{
+  background: url(./images/mobile/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--dark-desaturated-cyan);
 }
 
-.graphic-description{
+.graphic-title, .photo-title{
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 3.6rem;
+}
+
+.graphic-description, .photo-description{
   font-family: 'Barlow', sans-serif;
   font-weight: 600;
   font-size: 1.8rem;
   text-align: center;
-
-  color: var(--dark-desaturated-cyan);
 
   margin-block-start: 2.4rem;
 }
 
 .photo-section{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  
-  width: 373px;
-  height: 597px;
-  padding: 0 1.3rem 7.2rem;
-  
   background: url(./images/mobile/image-photography.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.photo-title{
-  font-family: 'Fraunces', serif;
-  font-weight: 600;
-  font-size: 3.6rem;
-
+  background-size: cover;
   color: var(--dark-blue);
-}
-
-.photo-description{
-  font-family: 'Barlow', sans-serif;
-  font-weight: 600;
-  font-size: 1.8rem;
-  text-align: center;
-
-  color: var(--dark-blue);
-
-  margin-block-start: 2.4rem;
 }
 
 /*Client Section*/
