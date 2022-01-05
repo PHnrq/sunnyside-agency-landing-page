@@ -117,13 +117,13 @@ position: absolute;
 
   margin-block-start: 17rem;
 }
+
 .arrow-icon{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/*Transform Brand Section*/
 .transform-brand-section, .stand-out-section{
   display: flex;
   flex-direction: column-reverse;
@@ -186,16 +186,9 @@ a .learn-more{
   z-index: -1;
 }
 
-/*.transform-brand-img{
-  width: 37.5rem;
-  height: 31.2rem;
-  
-  background-image: url(./images/mobile/image-transform.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}*/
-
-/*Stand out Section*/
+.transform-brand-img{
+  width: 100%;
+}
 
 .stand-out-description .underline{
   background-color: var(--soft-red);
