@@ -37,22 +37,22 @@ body{
   justify-content: center;
 }
 
-/*header style*/
 header{
-  display: block;
-  padding: 1.8rem 3.2rem;
+  position: relative;
   
-  width: 375px;
-  height: 538px;
-  left: 0px;
-  top: 0px;
+  padding: 3.2rem 3.2rem;
+  
+  width: 100vw;
+  height: 85vh;
   
   background: url(./images/mobile/image-header.jpg);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
+  background-position: center;
 }
 
 .navbar{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -63,11 +63,11 @@ header{
 }
 
 .menu-options{
-  position: absolute;
-  width: 304px;
-  height: 416px;
-  left: 35px;
-  top: 45px;
+position: absolute;
+  width: 305px;
+  height: 415px;
+  left: 3px;
+  top: 30px;
   
   padding: 11.6rem 7.7rem 8.2rem;
   
@@ -95,8 +95,8 @@ header{
   align-items: center;
   justify-content: center;
   
-  width: 150px;
-  height: 60px;
+  width: 15rem;
+  height: 6rem;
 
   font-family: 'Fraunces', serif;
   font-weight: 700;
@@ -109,13 +109,13 @@ header{
 .title{
   font-family: 'Fraunces', serif;
   font-weight: 900;
-  font-size: 6.4rem;
-  font-style: normal;
+  font-size: 4.4rem;
+  letter-spacing: .4rem;
   text-align: center;
 
   color: var(--white);
 
-  margin-block-start: 5.6rem;
+  margin-block-start: 17rem;
 }
 .arrow-icon{
   display: flex;
@@ -141,7 +141,7 @@ header{
 
 }
 
-.transform-brand-description h3, .stand-out-description h3{
+.transform-brand-description h2, .stand-out-description h2{
   font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: 3.6rem;
@@ -186,14 +186,14 @@ a .learn-more{
   z-index: -1;
 }
 
-.transform-brand-img{
+/*.transform-brand-img{
   width: 37.5rem;
   height: 31.2rem;
   
   background-image: url(./images/mobile/image-transform.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-}
+}*/
 
 /*Stand out Section*/
 
