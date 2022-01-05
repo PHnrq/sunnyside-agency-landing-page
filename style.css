@@ -186,7 +186,7 @@ a .learn-more{
   z-index: -1;
 }
 
-.transform-brand-img{
+.transform-brand-img, .stand-out-img{
   width: 100%;
 }
 
@@ -194,16 +194,6 @@ a .learn-more{
   background-color: var(--soft-red);
 }
 
-.stand-out-img{
-  width: 37.5rem;
-  height: 31.2rem;
-  
-  background-image: url(./images/mobile/image-stand-out.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-/*services*/
 .graphic-section{
   display: flex;
   flex-direction: column;
