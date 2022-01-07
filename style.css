@@ -398,6 +398,15 @@ footer{
     color: var(--white);
   }
 
+  .menu-options a:hover{
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+
+  .menu-options .btn-contact:hover{
+    color: var(--white);
+    background-color: hsla(0, 0%, 100%, 0.3);
+  }
+
   .menu-options .btn-contact{
     background-color: var(--white);
   }
