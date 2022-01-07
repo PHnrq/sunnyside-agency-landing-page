@@ -35,15 +35,12 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 
 header{
   position: relative;
-  
-  padding: 3.2rem 3.2rem;
-  
-  width: 100vw;
-  height: 85vh;
+  padding: 3.2rem 3.2rem 15rem;
   
   background: url(./images/mobile/image-header.jpg);
   background-repeat: no-repeat;
