@@ -428,6 +428,7 @@ footer{
   .transform-brand-description, .stand-out-description{
     padding: 3.6rem 7.7rem;
     align-items: flex-start;
+    flex: 1;
   }
 
   .stand-out-section{
