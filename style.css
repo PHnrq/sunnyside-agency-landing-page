@@ -416,7 +416,7 @@ footer{
   }
 
   .transform-brand-description, .stand-out-description{
-    padding: 5.6rem 7.7rem;
+    padding: 3.6rem 7.7rem;
     align-items: flex-start;
   }
 
@@ -438,5 +438,43 @@ footer{
 
   .transform-brand-description p, .stand-out-description p, a .learn-more, .graphic-description, .photo-description, .client-title,.testimonials, .author-name, .author-info{
     font-size: 1.8vw;
-  } 
+  }
+
+  .services{
+    display: flex;
+  }
+
+  .graphic-section{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+  }
+
+  .photo-section{
+    background-image: url(./images/desktop/image-photography.jpg);
+  }
+
+  .graphic-section, .photo-section{
+    flex: 1;
+    padding: 32rem 8.4rem 7.2rem;
+    background-size: cover;
+    background-position:bottom ;
+  }
+
+  .client-section{
+    padding: 7.2rem 5.6rem;
+  }
+
+  .client-testimonials{
+    flex-direction: row;
+    align-items: flex-start;
+    gap:4rem
+  }
+
+  .gallery{
+    display: flex;
+    width: 100vw;
+  }
+
+  .gallery-first-row, .gallery-second-row{
+    flex: 1;
+  }
 }
