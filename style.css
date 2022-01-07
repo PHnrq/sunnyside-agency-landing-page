@@ -356,3 +356,87 @@ footer{
 
   margin-block-start: 1.6rem;
 }
+
+@media screen and (min-width:400px){
+  #menu-active{
+    left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header{
+    background-image: url(./images/desktop/image-header.jpg);
+    width: 100vw;
+    max-height: 100vh;
+    padding-block-end: 36rem;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .btn-menu{
+    display: none;
+  }
+
+  #menu-active{
+    position: unset;
+    top: unset;
+    left: unset;
+    width: unset;
+    height: unset;
+    padding: unset;
+    display: flex;
+    background: none;
+    flex-direction: row;
+    gap: 2.8rem;
+  }
+
+  .menu-options a{
+    color: var(--white);
+  }
+
+  .menu-options .btn-contact{
+    background-color: var(--white);
+  }
+
+  .title{
+    margin-block-start: 10rem;
+    margin-block-end: 32rem;
+  }
+
+  .arrow-icon{
+    margin-block-start: -20rem;
+  }
+
+  .transform-brand-section{
+    flex-direction: row;
+  }
+
+  .transform-brand-description, .stand-out-description{
+    padding: 5.6rem 7.7rem;
+    align-items: flex-start;
+  }
+
+  .stand-out-section{
+    flex-direction: row-reverse;
+  }
+
+  .transform-brand-img, .stand-out-img{
+    width: 50%;
+  }
+
+  .transform-brand-description h2, .stand-out-description h2, .transform-brand-description p, .stand-out-description p{
+    text-align:start;
+  }
+
+  .transform-brand-description h2, .stand-out-description h2, .graphic-title, .photo-title{
+    font-size:3.6vw;
+  }
+
+  .transform-brand-description p, .stand-out-description p, a .learn-more, .graphic-description, .photo-description, .client-title,.testimonials, .author-name, .author-info{
+    font-size: 1.8vw;
+  } 
+}
